@@ -1,25 +1,23 @@
 {
-  "name": "com.google.external-dependency-manager",
-  "version": "1.2.165",
-  "displayName": "External Dependency Manager for Unity",
+  "name": "com.google.firebase.auth",
+  "version": "7.2.0",
+  "displayName": "Firebase Authentication",
   "keywords": [
     "Google",
-    "Android",
-    "Gradle",
-    "Cocoapods",
-    "Dependency",
-    "Unity Package Manager",
-    "Unity",
-    "vh-name:play-services-resolver",
-    "vh-name:unity-jar-resolver",
-    "vh-name:external-dependency-manager",
-    "vh-name:External Dependency Manager for Unity"
+    "Firebase",
+    "Auth",
+    "Authentication",
+    "FirebaseAuth",
+    "vh-name:FirebaseAuth",
+    "vh-name:Firebase Authentication"
   ],
   "author": {
     "name": "Google LLC",
-    "url": "https://github.com/googlesamples/unity-jar-resolver"
+    "url": "https://firebase.google.com/docs/auth/unity/start"
   },
-  "description": "External Dependency Manager for Unity (EDM4U) can be used by any Unity plugin that requires Android specific libraries (e.g. AARs), iOS CocoaPods, version management of transitive dependencies, and/or management of Unity Package Manager registries.",
+  "description": "Easily sign-in and authenticate players.\n\nSign-in players using any identity provider with Firebase Authentication. It supports email and password, phone authentication, Facebook, Google, Twitter, and more. Out-of-the-box, you get a secure, end-to-end identity solution.",
   "unity": "2017.1",
-  "dependencies": {}
+  "dependencies": {
+    "com.google.firebase.app": "7.2.0"
+  }
 }
